@@ -1,0 +1,259 @@
+/*====================
+=======Structure======
+======================*/
+
+header{
+   
+}
+
+main{
+   
+}
+
+/*====================
+========Columns=======
+======================*/
+
+.desktop-one-column{
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 30%;
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 65%;
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+
+/*====================
+======Typography======
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 0%);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Abel", sans-serif;
+}
+
+h5, h6 {
+    font-family: "Abel", sans-serif;
+}
+
+a, td, p, button, span{
+    font-family: "Abel", sans-serif;
+    text-decoration: none;
+}
+
+
+/*====================
+========Image=========
+======================*/
+
+img {
+    max-width: 100%;
+}
+
+.header-title{
+    font-size: 1.5em;
+    width: 100;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+}
+
+
+
+.ticket-title{
+    font-size: 1.2em;
+    width: 100;
+    text-align: center;
+}
+
+.products-select{
+    display: flex;
+    font-size: 1.2em;
+    width: 100;
+    text-align: center;
+}
+
+.product-select {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.product-select img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.product-select-delete svg{
+    color: rgb(0, 0, 0);
+}
+
+.base-price{
+    
+    font-size: 1.2em;
+    width: 100;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+}
+
+.base-price p{
+    color: white;
+}
+
+.iva{
+    font-size: 1.2em;
+    width: 100;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+}
+
+.iva p{
+    color: white;
+}
+
+.total-price{
+    font-size: 1.2em;
+    width: 100;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.total-price p{
+    color: white;
+}
+
+.delete-button{
+    background-color: rgb(223, 70, 70);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.delete-button button{
+    background-color:transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.collect-button{
+    background-color: rgb(104, 170, 104);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.collect-button button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.table-title{
+    text-align: center;
+}
+
+.tables td{
+    font-size: 2.5rem;
+    color: rgb(184, 255, 221);
+    font-weight: bold;
+    padding: 1.6em 2.8em;
+    border: 4px solid white;
+    text-align: center;
+    background-color: rgb(0, 114, 57);
+}
+
+.category-button svg{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.categories-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.categories-buttons button{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
