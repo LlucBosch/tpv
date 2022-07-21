@@ -432,3 +432,262 @@ img {
     width: 5rem;
     height: 5rem;
 }
+
+.delete-ticket{
+    margin-left: 30%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    z-index: 9999;
+    display: none;
+}
+
+.delete-ticket.active{
+    display: block;
+}
+
+.delete-ticket-title{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.delete-ticket-title-close h3{
+    margin-left: 0.5rem;
+    margin-top: 0rem;
+    font-size: 1.5rem;
+}
+
+.delete-ticket-title-close svg{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.delete-ticket-title-close svg{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.delete-ticket-text{
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.ticket-delete-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 3rem;
+    border-top: 1px solid grey;
+}
+
+.ticket-delete-button button{
+    background-color: rgb(76, 175, 81);
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 0.5rem;
+    color: white;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ticket-cancel-button button{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    border: solid 1px rgb(177, 177, 177);
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.overlate .active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+/*  */
+
+.payment-method{
+    margin-left: 30%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    display: none;
+}
+
+.payment-method.active{
+    display: block;
+}
+
+.payment-method-title{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.payment-method-title-close h3{
+    margin-left: 0.5rem;
+    margin-top: 0rem;
+    font-size: 1.5rem;
+}
+
+.payment-method-title-close svg{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.payment-method-title-close svg{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.payment-method-buttons button{
+    width: 6rem;
+    background-color: rgb(44, 55, 199);
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    cursor: pointer;    
+}
+
+/* admin */
+
+.title-admin{
+    display: flex;
+    text-align: center;
+    width: 95%;
+}
+
+.title-admin-burger{
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(180, 180, 180);
+    border-radius:3px;
+}
+
+.title-admin-text{
+    background-color: rgb(209, 217, 221);
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.title-admin-text h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.add-iva button{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(40, 113, 209);
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin-top: 0.5rem;
+    color: white;
+    cursor: pointer;   
+    margin-top: 5rem;
+    margin-left: 87%;; 
+}
+
+.table-iva{
+    margin-top: 1rem;
+}
+
+.table-iva table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 5%;
+}
+
+.table-iva th {
+    margin-top: 1.5rem;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+    font-weight: 600;
+    background-color: rgb(170, 221, 255);
+    font-size: 1.3rem;
+}
+
+.table-iva td {
+    border: 0.5px solid rgb(161, 161, 161);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+   
+}
+
+.table-iva td button{
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.table-delete-button{
+    background-color: rgb(204, 59, 59);
+}
+
+.table-edit-button{
+    background-color: rgb(45, 116, 60);
+}
+
+.navigation-table{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 42%;
+}
+
+.navigation-table-element{
+    width: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    color: blue;
+    cursor: pointer;
+}
